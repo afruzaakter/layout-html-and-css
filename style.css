@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(214, 218, 218);
+    overflow: hidden;
+}
+/* header part start*/
+.header-part{
+    margin-top: 20px;
+}
+.header{
+    background-color: rgb(66, 173, 216);
+    height: 100px;
+    width: 1156px;
+    margin-left: 98px;
+    padding-top: 20px;
+    border-radius: 3px;
+}
+
+.header p{
+    font-size: 25px;
+    padding-left: 30px;
+}
+.nav{
+    background-color: honeydew;
+    width: 1100px;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding: 5px 5px 8px 5px;
+    border-radius: 3px;
+}
+.nav h3{
+    padding-left: 8px;
+}
+/* header part end*/
+/* body part start*/
+
+
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.article{
+    background-color: rgb(99, 149, 168);
+    height: 380px;
+    width: 800px;
+    margin-left: 98px;
+    padding-top: 5px;
+    border-radius: 3px;
+    box-shadow:5px 1px rgb(99, 149, 168);
+}
+.article h3{
+    font-size: 25px;
+    color: rgb(80, 77, 77);
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+
+.section-1{
+    background-color: rgb(212, 195, 34);
+    font-size: 25px;
+    margin-left: 25px;
+    border-radius: 3px;
+    margin-right: 25px;
+    padding: 30px;
+    text-align: center;
+    color: rgb(87, 84, 84);
+    
+}
+
+.section-2{
+    background-color: rgb(212, 195, 34);
+    font-size: 25px;
+    margin-left: 25px;
+    border-radius: 3px;
+    margin-right: 25px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(87, 84, 84);
+}
+.section-3{
+    background-color: rgb(212, 195, 34);
+    font-size: 25px;
+    margin-left: 25px;
+    border-radius: 3px;
+    margin-right: 25px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(87, 84, 84);
+
+}
+.aside{
+    background-color: rgb(220, 123, 233);
+    height: 380px;
+    width:335px;
+    margin-right: 110px;
+    padding-top: 5px;
+    border-radius: 3px;
+}
+.aside h2{
+    font-size: 25px;
+    margin-left: 20px;
+    color: rgb(87, 84, 84);
+}
+
+
+
+/* body part end*/
